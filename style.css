@@ -1,2 +1,142 @@
+/* Nav, p, h3, #explore-searchbar #searchbar
+.container-logo
+#about-contact-donate 
+#Menu, h4*/
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+:root {
+  --orbitron-font: "Orbitron", sans-serif;
+  --audiowide-font: "Audiowide", sans-serif;
+  --exo2-font: "Exo 2", sans-serif;
+  --just-black: #000000;
+  --just-white: #ffffff;
+  --searchbar-color: #767b83;
+  --menu-background-color: #17171b;
+}
+
+body {
+  width: 100svw;
+  height: 100svh;
+}
+
+header {
+  color: var(--just-white);
+  font-family: var(--audiowide-font);
+}
+
+h2,
+h3 {
+  font-weight: 100;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+}
+
+.navigation {
+  max-width: 100svw;
+  max-height: 100svh;
+  max-width: 100%;
+  min-width: 1440px;
+  height: 57px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: var(--just-black);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#explore-searchbar {
+  display: flex;
+  flex-direction: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  width: 343px;
+  height: 57px;
+  max-width: 343px;
+  max-height: 57px;
+  font-size: 16px;
+  /* border: solid red; */
+}
+
+#explore-icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#searchbar {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--searchbar-color);
+  min-width: 132px;
+  max-width: 132px;
+  min-height: 22px;
+  max-height: 22px;
+  font-family: var(--exo2-font);
+  font-size: 10px;
+  color: var(--searchbar-color);
+}
+
+.container-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-contact-donate {
+  display: flex;
+  flex-direction: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-size: 14px;
+  width: 342px;
+  height: 57px;
+  max-width: 342px;
+  max-height: 57px;
+  /* border: 1px solid red; */
+}
+
+.acd-icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.menu-container {
+  max-width: 100svw;
+  max-height: 100svh;
+  max-width: 100%;
+  min-width: 1440px;
+  height: 85px;
+  padding: 16px 502px 16px 502px;
+  background-color: var(--menu-background-color);
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  font-size: 14px;
+}
