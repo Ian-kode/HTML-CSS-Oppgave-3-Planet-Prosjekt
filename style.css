@@ -249,3 +249,41 @@ h3 {
   height: 334px;
   object-fit: cover;
 }
+
+footer {
+  max-width: 100%;
+  width: 1440;
+  max-height: 100%;
+  height: 243px;
+  padding: 25px 0px 25px 0px;
+}
+
+.copyright {
+  display: flex;
+}
+
+.footer-logo {
+  max-width: 100%;
+  width: 85px;
+  max-height: 100%;
+  height: 85px;
+  margin-bottom: 10px;
+}
+
+.footer-title {
+  font-family: var(--orbitron-font);
+  margin-bottom: 19px;
+}
+
+.footer-title h1 {
+  font-weight: 900;
+}
+
+.footer-paragraph {
+  font-family: var(--exo2-font);
+  font-size: 16px;
+}
+
+.footer-paragraph p {
+  font-weight: 400;
+}
