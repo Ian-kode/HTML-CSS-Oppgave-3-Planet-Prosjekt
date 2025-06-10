@@ -22,6 +22,8 @@
 body {
   width: 100svw;
   height: 100svh;
+  background-image: url(./images/backgrunnbilde.png);
+  background-repeat: no-repeat;
 }
 
 header {
@@ -29,10 +31,10 @@ header {
   font-family: var(--audiowide-font);
 }
 
-h2,
+/* h2,
 h3 {
   font-weight: 100;
-}
+} */
 
 .icon {
   width: 16px;
@@ -55,7 +57,11 @@ h3 {
   background-color: var(--just-black);
 }
 
-.container {
+.navigation h3 {
+  font-weight: 100;
+}
+
+.navigation-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -94,7 +100,7 @@ h3 {
   color: var(--searchbar-color);
 }
 
-.container-logo {
+.logo-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -133,6 +139,10 @@ h3 {
   align-items: end;
 }
 
+.menu-container h4 {
+  font-weight: 100;
+}
+
 .menu {
   display: flex;
   flex-direction: row;
@@ -149,19 +159,33 @@ h3 {
   border: solid red;
 }
 
-.articles {
-  /* border: solid green; */
-  max-width: 100svw;
-  min-width: 1440px;
-  max-height: 100svh;
-  min-height: 2102px;
-  padding: 204px 165px 160px 165px;
-  background-image: url(./images/backgrunnbilde.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+#articles {
+  border: solid yellow;
+  max-width: 100%;
+  width: 1392px;
+  height: 1876px;
+  margin: 40px 24px 40px 24px;
+  padding: 80px 0 80px 0px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 80px;
 }
 
-.articles h3 {
+.section-title h1 {
+  color: var(--just-white);
+  font-family: Orbitron;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+}
+
+#articles h3 {
   color: var(--just-white);
   font-family: var(--orbitron-font);
   font-size: 24px;
@@ -170,7 +194,7 @@ h3 {
   line-height: normal;
 }
 
-.articles p {
+#articles p {
   color: var(--just-white);
   font-family: var(--exo2-font);
   font-size: 16px;
@@ -188,18 +212,6 @@ h3 {
   backdrop-filter: blur(3.5px);
 }
 
-/* Best to add a background color under the image other than resizing the images */
-.intro-image,
-.alien-image {
-  border-radius: 20px 0 0 20px;
-  background-color: rgba(128, 128, 128, 0.15);
-}
-
-.god-image,
-.collage-image {
-  border-radius: 0 20px 20px 0;
-}
-
 .article-card {
   max-width: 100%;
   width: 1110px;
@@ -209,23 +221,9 @@ h3 {
   flex-wrap: nowrap;
   flex-direction: row-reverse;
   justify-content: center;
-  margin-bottom: 134px;
-  /* border: solid yellow; */
 }
 
-.article-card-god {
-  max-width: 100%;
-  width: 1110px;
-  max-height: 100%;
-  height: 334px;
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 134px;
-  /* border: solid yellow; */
-}
-
+.article-card-god,
 .article-card-collage {
   max-width: 100%;
   width: 1110px;
@@ -235,40 +233,44 @@ h3 {
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 134px;
-  /* border: solid yellow; */
 }
 
 .title-paragraph {
-  /* border: solid blue; */
   width: 555px;
   max-width: 100%;
   height: 334px;
   max-height: 100%;
-  padding: 20px 56px 20px 56px;
+  padding: 24px 56px;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
+  flex-shrink: 0;
+  gap: 16px;
 }
-.margin-h3,
+
 .margin-p {
   margin-bottom: 14px;
 }
 
+/* Best to add a background color under the image */
 .intro-image {
   max-width: 100%;
   width: 555px;
   max-height: 100%;
   height: 334px;
   object-fit: contain;
+  border-radius: 20px 0 0 20px;
+  background-color: var(--just-black);
 }
 
-.god-image {
+.god-image,
+.collage-image {
   max-width: 100%;
   width: 555px;
   max-height: 100%;
   height: 334px;
   object-fit: cover;
+  border-radius: 0 20px 20px 0;
 }
 
 .alien-image {
@@ -277,14 +279,8 @@ h3 {
   max-height: 100%;
   height: 334px;
   object-fit: cover;
-}
-
-.collage-image {
-  max-width: 100%;
-  width: 555px;
-  max-height: 100%;
-  height: 334px;
-  object-fit: cover;
+  border-radius: 20px 0 0 20px;
+  background-color: rgba(128, 128, 128, 0.15);
 }
 
 footer {
