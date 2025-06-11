@@ -141,14 +141,6 @@ h3 {
   font-size: 14px;
 }
 
-#hero-container {
-  max-width: 100svw;
-  width: 1392px;
-  max-height: 100svh;
-  min-height: 1577px;
-  border: solid red;
-}
-
 .articles {
   /* border: solid green; */
   max-width: 100svw;
@@ -323,4 +315,47 @@ footer {
 
 .footer-paragraph p {
   font-weight: 400;
+}
+
+/* --HERO--
+ section, div, h1, h4, p, img, h2, aside
+ classes: hero, hero_contents, hero_info, info_container,
+ hero_image
+ id: info_left, info_right
+ */
+.hero {
+  max-width: 100svw;
+  width: 1392px;
+  max-height: 100svh;
+  min-height: 1577px;
+  border: solid red;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+
+.hero_contents {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hero_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 466px;
+  height: 638.667px;
+}
+
+#info_left {
+  align-items: flex-end;
+}
+#info_right {
+  align-items: flex-start;
+}
+
+.hero_image {
+  width: 464px;
+  height: 464px;
 }
