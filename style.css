@@ -583,4 +583,148 @@ h1 {
   bottom: 98px;
 }
 
-/* SECTION 2/TIMELINE 2 */
+/* SECTION 2/TIMELINE 2
+Classes: timeline2_section, timeline2, t2_toprow,
+ t2_component,t2c_text, t2c_line, t2c_iconbox,
+  t2c_icon, t2c_year, t2_line, t2_bottomrow, t2c_reversed,
+  top_year, bottom_year */
+
+.timeline2_section {
+  display: flex;
+  padding: 80px 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+  background-color: #17171b;
+}
+
+.timeline2 {
+  width: 1392px;
+  height: 1059px;
+  position: relative;
+}
+
+.t2_component {
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: center;
+  width: 318px;
+  height: 633px;
+}
+
+.t2c_text {
+  display: flex;
+  height: 376px;
+  padding: 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+  border: 1.4px solid rgba(255, 255, 255, 0.4);
+  background: rgba(129, 170, 205, 0.15);
+  backdrop-filter: blur(20px);
+}
+
+.t2c_line {
+  width: 1px;
+  height: 105px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.t2c_iconbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #003180;
+}
+
+.t2c_icon {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1/1;
+}
+
+.t2c_year {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.t2_line {
+  width: 1391.954px;
+  height: 4px;
+  background: #003180;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.t2_toprow {
+  display: flex;
+  width: 1391.954px;
+  height: 633px;
+  justify-content: flex-end;
+  align-items: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.t2_bottomrow {
+  display: flex;
+  width: 1391.954px;
+  height: 632px;
+  align-items: center;
+  flex-shrink: 0;
+  position: relative;
+  bottom: 204px;
+}
+
+.t2c_reversed {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.top_year {
+  padding-top: 24px;
+}
+
+.bottom_year {
+  padding-bottom: 24px;
+}
+
+h2 {
+  color: #fff;
+
+  /* h2 */
+  font-family: Orbitron;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h3 {
+  color: #a9c0d9;
+
+  /* h3 */
+  font-family: Orbitron;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+p {
+  color: #afc3db;
+  font-family: "Exo 2";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
