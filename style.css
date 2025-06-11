@@ -325,7 +325,7 @@ footer {
  */
 .hero {
   max-width: 100svw;
-  width: 1392px;
+  width: 100%;
   max-height: 100svh;
   min-height: 1577px;
   border: solid red;
@@ -333,12 +333,14 @@ footer {
   flex-direction: column;
   justify-self: center;
   background-color: #17171b;
+  align-items: center;
 }
 
 .hero_contents {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 
 .hero_info {
@@ -369,7 +371,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 191px;
+  width: 193px;
   padding: 8px 16px;
   gap: 2px;
 
