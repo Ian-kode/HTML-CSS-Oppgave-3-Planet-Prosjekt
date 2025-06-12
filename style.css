@@ -157,24 +157,10 @@ h3 {
   min-width: 1440px;
   max-height: 100svh;
   min-height: 2102px;
-  display: flex;
-  padding: 80px 0px;
-  flex-direction: column;
-  align-items: center;
-  gap: 80px;
-  align-self: stretch;
-  /* background-image: url(./images/backgrunnbilde.png);
+  padding: 204px 165px 160px 165px;
+  background-image: url(./images/backgrunnbilde.png);
   background-repeat: no-repeat;
-  background-size: cover; */
-}
-
-.title-articles {
-  color: #fff;
-  font-family: Orbitron;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  background-size: cover;
 }
 
 .articles h3 {
@@ -355,7 +341,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-self: center;
-  /* background-color: #17171b; */
+  background-color: #17171b;
   align-items: center;
 }
 
