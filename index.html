@@ -16,7 +16,7 @@
   <body>
     <header>
       <nav class="navigation">
-        <div class="navigation-container">
+        <div class="container">
           <section id="explore-searchbar">
             <div id="explore-icon">
               <h3>Explore</h3>
@@ -26,7 +26,7 @@
               <p class="search_p">Search</p>
             </div>
           </section>
-          <div class="logo-container">
+          <div class="container-logo">
             <img class="logo" src="./images/logo.png" alt="" />
           </div>
           <section id="about-contact-donate">
@@ -47,16 +47,19 @@
       </nav>
       <nav class="menu-container">
         <section class="menu">
-          <a href=".hero"><h4>Home</h4></a>
+          <a href="#hero"><h4>About</h4></a>
+          <a href="#moons"><h4>Moons</h4></a>
           <a href="#articles"><h4>Facts</h4></a>
-          <a href=".timeline2_section"><h4>Exploration</h4></a>
-          <a href=""><h4>Moon</h4></a>
-          <a href=""><h4>Resources</h4></a>
+          <a href="#exploration"><h4>Exploration</h4></a>
         </section>
       </nav>
     </header>
     <main>
-      <section class="hero">
+      <!-- BACKGROUND STARS -->
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+      <section id="hero" class="hero">
         <!-- hero header 1/h1 -->
         <div class="hero_header"><h1>Jupiter</h1></div>
         <div class="hero_contents">
@@ -114,7 +117,7 @@
           </aside>
         </div>
         <!-- hero header 2/h2 -->
-        <div class="hero_header">
+        <div id="moons" class="hero_header">
           <h2 class="hero_header2">...and its Amazing Moons</h2>
         </div>
         <!-- Timeline1 contains: 4 items(top row, bottom row, Line)-->
@@ -217,7 +220,7 @@
         <h2 class="title-articles">Facts about Jupiter</h2>
         <div class="article-card">
           <div class="title-paragraph">
-            <h3>Introduction</h3>
+            <h3 class="margin-h3">Introduction</h3>
             <p class="margin-p">
               Jupiter's signature stripes and swirls are actually cold, windy
               clouds of ammonia and water, floating in an atmosphere of hydrogen
@@ -239,7 +242,7 @@
         </div>
         <div class="article-card-god">
           <div class="title-paragraph">
-            <h3>Namesake</h3>
+            <h3 class="margin-h3">Namesake</h3>
             <p class="margin-p">
               Jupiter, the largest planet in our solar system, is named after
               the king of the gods in Roman mythology. The Roman god, Iuppiter
@@ -259,7 +262,7 @@
         </div>
         <div class="article-card">
           <div class="title-paragraph">
-            <h3>Potential for Life</h3>
+            <h3 class="margin-h3">Potential for Life</h3>
             <p class="margin-p">
               Jupiter’s environment is probably not conducive to life as we know
               it. The temperatures, pressures, and materials that characterize
@@ -284,7 +287,7 @@
         </div>
         <div class="article-card-collage">
           <div class="title-paragraph">
-            <h3>Size and Distance</h3>
+            <h3 class="margin-h3">Size and Distance</h3>
             <p class="margin-p">
               With a radius of 43,440.7 miles (69,911 kilometers), Jupiter is 11
               times wider than Earth. If Earth were the size of a grape, Jupiter
@@ -304,7 +307,7 @@
         </div>
       </div>
       <!-- TIMELINE 2 -->
-      <section class="timeline2_section">
+      <section id="exploration" class="timeline2_section">
         <!-- Header -->
         <h2 class="t2_h2">Exploring Jupiter</h2>
         <!-- Timeline container, contains: toprow (with 4 items), bottomrow (with 4 items), Timeline line -->
@@ -663,26 +666,25 @@
           </div>
         </div>
       </section>
-      <footer>
-        <div class="copyright">
-          <div class="logo">
-            <img class="footer-logo" src="./images/logo.png" alt="" />
+    </main>
+    <footer>
+      <div class="copyright">
+        <div class="logo">
+          <img class="footer-logo" src="./images/logo.png" alt="" />
+        </div>
+        <div class="footer-title-paragraph">
+          <div class="footer-title">
+            <h1>Worshipers of Jupiter Cult</h1>
           </div>
-          <div class="footer-title-paragraph">
-            <div class="footer-title">
-              <h1>Worshipers of Jupiter Cult</h1>
-            </div>
-            <div class="footer-paragraph">
-              <p>
-                © 2025 Worshipers of Jupiter · All Rights Reserved<br />
-                Follow us on [Instagram] | [Facebook] | [Twitter]<br />
-                Contact: info@worshipersofjupiter.org
-              </p>
-            </div>
+          <div class="footer-paragraph">
+            <p>
+              © 2025 Worshipers of Jupiter · All Rights Reserved<br />
+              Follow us on [Instagram] | [Facebook] | [Twitter]<br />
+              Contact: info@worshipersofjupiter.org
+            </p>
           </div>
         </div>
-      </footer>
-      -->
-    </main>
+      </div>
+    </footer>
   </body>
 </html>
