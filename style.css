@@ -189,7 +189,7 @@ header {
   line-height: normal;
 }
 
-#articles h3 {
+.articles h3 {
   color: var(--just-white);
   font-family: var(--orbitron-font);
   font-size: 24px;
@@ -198,7 +198,7 @@ header {
   line-height: normal;
 }
 
-#articles p {
+.articles p {
   color: var(--just-white);
   font-family: var(--exo2-font);
   font-size: 16px;
