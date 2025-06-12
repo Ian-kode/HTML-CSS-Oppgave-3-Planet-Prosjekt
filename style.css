@@ -53,6 +53,16 @@ a:hover {
   color: #00ffff;
 }
 
+#hero,
+#moons,
+#articles {
+  scroll-margin-top: 160px;
+}
+
+#exploration {
+  scroll-margin-top: 80px;
+}
+
 h2,
 h3 {
   font-weight: 100;
@@ -511,7 +521,7 @@ main {
 #stars:after {
   content: " ";
   position: absolute;
-  top: 5300px;
+  top: 2000px;
   width: 1px;
   height: 1px;
   background: transparent;
@@ -753,7 +763,7 @@ main {
 #stars2:after {
   content: " ";
   position: absolute;
-  top: 5300px;
+  top: 2000px;
   width: 2px;
   height: 2px;
   background: transparent;
@@ -845,7 +855,7 @@ main {
 #stars3:after {
   content: " ";
   position: absolute;
-  top: 5300px;
+  top: 2000px;
   width: 3px;
   height: 3px;
   background: transparent;
