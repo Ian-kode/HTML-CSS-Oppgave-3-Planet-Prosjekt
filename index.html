@@ -16,7 +16,7 @@
   <body>
     <header>
       <nav class="navigation">
-        <div class="container">
+        <div class="navigation-container">
           <section id="explore-searchbar">
             <div id="explore-icon">
               <h3>Explore</h3>
@@ -26,7 +26,7 @@
               <p class="search_p">Search</p>
             </div>
           </section>
-          <div class="container-logo">
+          <div class="logo-container">
             <img class="logo" src="./images/logo.png" alt="" />
           </div>
           <section id="about-contact-donate">
@@ -47,11 +47,11 @@
       </nav>
       <nav class="menu-container">
         <section class="menu">
-          <h4>Home</h4>
-          <h4>Facts</h4>
-          <h4>Exploration</h4>
-          <h4>Moon</h4>
-          <h4>Resources</h4>
+          <a href=".hero"><h4>Home</h4></a>
+          <a href="#articles"><h4>Facts</h4></a>
+          <a href=".timeline2_section"><h4>Exploration</h4></a>
+          <a href=""><h4>Moon</h4></a>
+          <a href=""><h4>Resources</h4></a>
         </section>
       </nav>
     </header>
@@ -217,14 +217,19 @@
           </div>
         </div>
       </section>
+ 
       <div class="articles">
         <!-- BACKGROUND STARS -->
         <div id="stars"></div>
         <div id="stars2"></div>
         <div id="stars3"></div>
+
+      <div id="articles" class="articles">
+        <h2 class="title-articles">Facts about Jupiter</h2>
+ 
         <div class="article-card">
           <div class="title-paragraph">
-            <h3 class="margin-h3">Introduction</h3>
+            <h3>Introduction</h3>
             <p class="margin-p">
               Jupiter's signature stripes and swirls are actually cold, windy
               clouds of ammonia and water, floating in an atmosphere of hydrogen
@@ -246,7 +251,7 @@
         </div>
         <div class="article-card-god">
           <div class="title-paragraph">
-            <h3 class="margin-h3">Namesake</h3>
+            <h3>Namesake</h3>
             <p class="margin-p">
               Jupiter, the largest planet in our solar system, is named after
               the king of the gods in Roman mythology. The Roman god, Iuppiter
@@ -266,7 +271,7 @@
         </div>
         <div class="article-card">
           <div class="title-paragraph">
-            <h3 class="margin-h3">Potential for Life</h3>
+            <h3>Potential for Life</h3>
             <p class="margin-p">
               Jupiter’s environment is probably not conducive to life as we know
               it. The temperatures, pressures, and materials that characterize
@@ -291,7 +296,7 @@
         </div>
         <div class="article-card-collage">
           <div class="title-paragraph">
-            <h3 class="margin-h3">Size and Distance</h3>
+            <h3>Size and Distance</h3>
             <p class="margin-p">
               With a radius of 43,440.7 miles (69,911 kilometers), Jupiter is 11
               times wider than Earth. If Earth were the size of a grape, Jupiter
@@ -689,6 +694,7 @@
           </div>
         </div>
       </footer>
+      -->
     </main>
   </body>
 </html>
