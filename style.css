@@ -22,19 +22,22 @@
 body {
   width: 100svw;
   height: 100svh;
-  background-image: url(./images/backgrunnbilde.png);
+  background-image: url(./images/background3.png);
   background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+main {
+  background-image: url(./images/background3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
   color: var(--just-white);
   font-family: var(--audiowide-font);
 }
-
-/* h2,
-h3 {
-  font-weight: 100;
-} */
 
 .icon {
   width: 16px;
@@ -281,6 +284,122 @@ h3 {
   object-fit: cover;
   border-radius: 20px 0 0 20px;
   background-color: rgba(128, 128, 128, 0.15);
+}
+
+#exploration {
+  max-width: 100%;
+  width: 1392px;
+  height: 1319px;
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+}
+
+#exploration h1 {
+  color: #fff;
+  font-family: Orbitron;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.exploration-timeline {
+  max-width: 100%;
+  width: 1392px;
+  height: 1059px;
+  display: flex;
+  overflow: visible;
+}
+
+.top-row {
+  max-width: 100%;
+  display: flex;
+  width: 1391.954px;
+  height: 633px;
+  justify-content: flex-end;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.icon-info {
+  max-width: 100%;
+  width: 318px;
+  height: 633px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-paragraph-icon-info {
+  max-width: 100%;
+  width: 270px;
+  height: 376px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+  border: 1.4px solid rgba(255, 255, 255, 0.4);
+  background: rgba(129, 170, 205, 0.15);
+  backdrop-filter: blur(20px);
+}
+
+.title-paragraph-icon-info h3 {
+  color: #a9c0d9;
+  font-family: Orbitron;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.title-paragraph-icon-info p {
+  color: #afc3db;
+  font-family: "Exo 2";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.line-icon-year {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-icon-year h3 {
+  color: #fff;
+  font-family: Orbitron;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.v-line {
+  height: 105px;
+}
+
+.pioneer11-icon {
+  max-width: 100%;
+  width: 50px;
+  height: 50px;
+  background-color: #003180;
+}
+
+.exploration-year {
+  display: flex;
+  padding-top: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 footer {
