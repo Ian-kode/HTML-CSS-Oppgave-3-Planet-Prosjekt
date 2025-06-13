@@ -933,14 +933,14 @@ main {
     564px 455px #fff, 1675px 589px #fff;
 }
 
-/* @keyframes animStar {
+@keyframes animStar {
   from {
     transform: translateY(0px);
   }
   to {
     transform: translateY(-1800px);
   }
-} */
+}
 
 /* --HERO--
  section, div, h1, h4, p, img, h2, aside
