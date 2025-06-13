@@ -938,7 +938,7 @@ main {
     transform: translateY(0px);
   }
   to {
-    transform: translateY(-1800px);
+    transform: translateY(-2000px);
   }
 }
 
