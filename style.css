@@ -932,15 +932,15 @@ main {
     1067px 296px #fff, 746px 463px #fff, 412px 349px #fff, 1193px 1421px #fff,
     564px 455px #fff, 1675px 589px #fff;
 }
-
-/* @keyframes animStar {
+/*ANIMATION*/
+@keyframes animStar {
   from {
     transform: translateY(0px);
   }
   to {
     transform: translateY(-1800px);
   }
-} */
+}
 
 /* --HERO--
  section, div, h1, h4, p, img, h2, aside
