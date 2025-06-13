@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="icon" href="./images/logo.png" />
+    <link rel="icon" href="./images/logo-removebg-preview.png" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,23 +11,33 @@
     />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Worshipers of Jupiter Cult</title>
+    <title>Worshippers of Jupiter</title>
   </head>
   <body>
     <header>
       <nav class="navigation">
-        <div class="navigation-container">
+        <div class="container">
           <section id="explore-searchbar">
             <div id="explore-icon">
               <h3>Explore</h3>
-              <img class="icon" src="./images/right (1).png" alt="" />
+              <div class="dropdown">
+                <button class="btn pulse">
+                  <img class="icon" src="./images/right (1).png" alt="" />
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Item 1</a>
+                  <a href="#">Item 2</a>
+                  <a href="#">Item 3</a>
+                </div>
+              </div>
+              <!-- <img class="icon" src="./images/right (1).png" alt="" /> -->
             </div>
             <div id="searchbar">
               <p class="search_p">Search</p>
             </div>
           </section>
-          <div class="logo-container">
-            <img class="logo" src="./images/logo.png" alt="" />
+          <div class="container-logo">
+            <img class="logo" src="./images/logo-removebg-preview.png" alt="" />
           </div>
           <section id="about-contact-donate">
             <div class="acd-icon">
@@ -47,16 +57,19 @@
       </nav>
       <nav class="menu-container">
         <section class="menu">
-          <h4>Home</h4>
-          <h4>Facts</h4>
-          <h4>Exploration</h4>
-          <h4>Moon</h4>
-          <h4>Resources</h4>
+          <a href="#hero"><h4>About</h4></a>
+          <a href="#moons"><h4>Moons</h4></a>
+          <a href="#articles"><h4>Facts</h4></a>
+          <a href="#exploration"><h4>Exploration</h4></a>
         </section>
       </nav>
     </header>
     <main>
-      <section class="hero">
+      <!-- BACKGROUND STARS -->
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+      <section id="hero" class="hero">
         <!-- hero header 1/h1 -->
         <div class="hero_header"><h1>Jupiter</h1></div>
         <div class="hero_contents">
@@ -114,7 +127,7 @@
           </aside>
         </div>
         <!-- hero header 2/h2 -->
-        <div class="hero_header">
+        <div id="moons" class="hero_header">
           <h2 class="hero_header2">...and its Amazing Moons</h2>
         </div>
         <!-- Timeline1 contains: 4 items(top row, bottom row, Line)-->
@@ -213,11 +226,11 @@
           </div>
         </div>
       </section>
-      <div class="articles">
+      <div id="articles" class="articles">
         <h2 class="title-articles">Facts about Jupiter</h2>
         <div class="article-card">
           <div class="title-paragraph">
-            <h3>Introduction</h3>
+            <h3 class="margin-h3">Introduction</h3>
             <p class="margin-p">
               Jupiter's signature stripes and swirls are actually cold, windy
               clouds of ammonia and water, floating in an atmosphere of hydrogen
@@ -239,7 +252,7 @@
         </div>
         <div class="article-card-god">
           <div class="title-paragraph">
-            <h3>Namesake</h3>
+            <h3 class="margin-h3">Namesake</h3>
             <p class="margin-p">
               Jupiter, the largest planet in our solar system, is named after
               the king of the gods in Roman mythology. The Roman god, Iuppiter
@@ -259,7 +272,7 @@
         </div>
         <div class="article-card">
           <div class="title-paragraph">
-            <h3>Potential for Life</h3>
+            <h3 class="margin-h3">Potential for Life</h3>
             <p class="margin-p">
               Jupiter’s environment is probably not conducive to life as we know
               it. The temperatures, pressures, and materials that characterize
@@ -284,7 +297,7 @@
         </div>
         <div class="article-card-collage">
           <div class="title-paragraph">
-            <h3>Size and Distance</h3>
+            <h3 class="margin-h3">Size and Distance</h3>
             <p class="margin-p">
               With a radius of 43,440.7 miles (69,911 kilometers), Jupiter is 11
               times wider than Earth. If Earth were the size of a grape, Jupiter
@@ -304,7 +317,7 @@
         </div>
       </div>
       <!-- TIMELINE 2 -->
-      <section class="timeline2_section">
+      <section id="exploration" class="timeline2_section">
         <!-- Header -->
         <h2 class="t2_h2">Exploring Jupiter</h2>
         <!-- Timeline container, contains: toprow (with 4 items), bottomrow (with 4 items), Timeline line -->
@@ -663,26 +676,49 @@
           </div>
         </div>
       </section>
-      <footer>
-        <div class="copyright">
-          <div class="logo">
-            <img class="footer-logo" src="./images/logo.png" alt="" />
-          </div>
-          <div class="footer-title-paragraph">
-            <div class="footer-title">
-              <h1>Worshipers of Jupiter Cult</h1>
-            </div>
-            <div class="footer-paragraph">
-              <p>
-                © 2025 Worshipers of Jupiter · All Rights Reserved<br />
-                Follow us on [Instagram] | [Facebook] | [Twitter]<br />
-                Contact: info@worshipersofjupiter.org
-              </p>
-            </div>
-          </div>
-        </div>
-      </footer>
-      -->
     </main>
+    <footer>
+      <div class="copyright">
+        <img src="./images/logo-removebg-preview.png" alt="Logo" width="56px" />
+        <h3 class="f_h3">Worshippers of Jupiter</h3>
+        <div class="footer_p">
+          <p>
+<<<<<<< Dennis
+            © 2025 Worshipers of Jupiter · All Rights Reserved | Follow us on
+=======
+            © 2025 Worshippers of Jupiter · All Rights ReservedFollow us on
+>>>>>>> main
+            [Instagram] | [Facebook] | [Twitter]Contact:
+            info@worshippersofjupiter.org
+          </p>
+        </div>
+      </div>
+      <div class="footer_info">
+        <div class="footer_links">
+          <h4 class="f_h4">Explore More</h4>
+          <p class="footer_link">Humans in Space</p>
+          <p class="footer_link">Earth</p>
+          <p class="footer_link">The Solar System</p>
+          <p class="footer_link">The Universe</p>
+          <p class="footer_link">Science</p>
+        </div>
+        <div class="footer_links">
+          <h4 class="f_h4">Socials</h4>
+          <p class="footer_link">LinkedIn</p>
+          <p class="footer_link">Facebook</p>
+          <p class="footer_link">X</p>
+          <p class="footer_link">Instagram</p>
+          <p class="footer_link">TikTok</p>
+        </div>
+        <div class="footer_links">
+          <h4 class="f_h4">NASA</h4>
+          <p class="footer_link">300 E St. SW,</p>
+          <p class="footer_link">Washington,</p>
+          <p class="footer_link">DC 20546</p>
+          <p class="footer_link">How to become an astronaut</p>
+          <p class="footer_link">Launch Schedule</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
