@@ -1280,6 +1280,7 @@ Classes: timeline2_section, timeline2, t2_toprow,
   justify-content: center;
   align-items: center;
   gap: 10px;
+  z-index: 999;
 }
 
 .t2_line {
